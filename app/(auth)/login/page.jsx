@@ -8,6 +8,8 @@ import { zodResolver } from '@hookform/resolvers/zod';
 import { Form } from "@/components/ui/form";
 import { FaRegUser } from "react-icons/fa";
 import { z } from 'zod';
+import { toast } from 'react-toastify';
+import { signInUser } from '@/lib/api/auth';
 
 const LoginForm = () => {
   const pathname = usePathname();
@@ -32,8 +34,18 @@ const LoginForm = () => {
     },
   });
 
-  const onSubmit = (data) => {
-    console.log(data);
+  const onSubmit = async (data) => {
+    console.log('sdsa')
+    try {
+      const response = await signInUser("sdada", "data.password");
+      console.log('User signed in successfully:', response);
+      toast.success('Successfully signed in!');
+      // Handle successful sign-in (e.g., redirect to another page)
+    } catch (error) {
+      console.error('Error during sign-in:', error);
+      toast.error('Failed to sign in. Please check your credentials and try again.');
+      // Handle error (e.g., display error message to user)
+    }
   };
 
   return (

@@ -3,6 +3,7 @@ import "./globals.css";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Navbar from "../components/global/Navbar";
+     import { ToastContainer } from 'react-toastify';
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -20,7 +21,7 @@ export default function RootLayout({ children }) {
       <Navbar/>
         
         {children}
-     
+        <ToastContainer/>
       </body>
     </html>
   );

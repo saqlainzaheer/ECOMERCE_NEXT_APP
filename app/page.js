@@ -1,7 +1,7 @@
 import React from 'react';
-import EmblaSlider from './(components)/EmblaCarousel';
-import ProductCard from '../components/global/ProductCard';
-import HeroSection from '../components/global/HeroSection';
+import EmblaSlider from '@/components/global/EmblaCarousel';
+import ProductCard from '@/components/global/ProductCard';
+import HeroSection from '@/components/global/HeroSection';
 
 const topSellingsData = [
   {
