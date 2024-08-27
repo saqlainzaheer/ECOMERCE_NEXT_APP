@@ -10,7 +10,6 @@ import { FaRegUser } from "react-icons/fa";
 import { z } from 'zod';
 
 const LoginForm = () => {
-  // Getting path name
   const pathname = usePathname();
   
 
