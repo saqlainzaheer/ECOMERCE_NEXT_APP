@@ -13,6 +13,7 @@ const LoginForm = () => {
   // Getting path name
   const pathname = usePathname();
 
+
   // Validation schema for form input
   const signInFormValidation = z.object({
     name: z.string().min(2, {
