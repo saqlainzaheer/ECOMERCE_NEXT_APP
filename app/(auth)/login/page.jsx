@@ -12,9 +12,9 @@ import { z } from 'zod';
 const LoginForm = () => {
   // Getting path name
   const pathname = usePathname();
+  
 
 
-  // Validation schema for form input
   const signInFormValidation = z.object({
     name: z.string().min(2, {
       message: "Name must be at least 2 characters.",
@@ -30,7 +30,7 @@ const LoginForm = () => {
     resolver: zodResolver(signInFormValidation),
     defaultValues: {
       name: "",
-      email: "",
+      email:"",
     },
   });
 
