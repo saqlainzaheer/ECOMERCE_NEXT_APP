@@ -24,7 +24,6 @@ const LoginForm = () => {
       .email("This is not a valid email."),
   });
 
-  // Creating react hook form and validation using zod 
   const form = useForm({
     resolver: zodResolver(signInFormValidation),
     defaultValues: {
