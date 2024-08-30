@@ -23,13 +23,7 @@ const topSellingsData = [
 
   
 
-    image: "/image2.png",
-    title: "SKINNY FIT JEANS",
-    rating: 4.5,
-    realPrice: "$260",
-    discountPrice: "$120",
-    discount: "-20%",
-  },
+  
   {
     image: "/image3.png",
     title: "CHECKERED SHIRT",
