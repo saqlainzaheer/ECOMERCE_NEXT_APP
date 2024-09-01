@@ -24,14 +24,7 @@ const topSellingsData = [
   
 
   
-  {
-    image: "/image4.png",
-    title: "SLEEVE STRIPED T-SHIRT",
-    rating: 4.5,
-    realPrice: "$160",
-    discountPrice: "$130",
-    discount: "-30%",
-  },
+ 
   {
     image: "/image4.png",
     title: "SLEEVE STRIPED T-SHIRT",
