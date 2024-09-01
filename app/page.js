@@ -25,14 +25,6 @@ const topSellingsData = [
 
   
   {
-    image: "/image3.png",
-    title: "CHECKERED SHIRT",
-    rating: 3.5,
-    realPrice: "$120",
-    discountPrice: null,
-    discount: null,
-  },
-  {
     image: "/image4.png",
     title: "SLEEVE STRIPED T-SHIRT",
     rating: 4.5,
