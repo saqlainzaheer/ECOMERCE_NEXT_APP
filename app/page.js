@@ -37,18 +37,21 @@ const topSellingsData = [
     discountPrice: null,
     discount: null,
   },
-
-  
-
-  
- 
   {
-    image: "/image4.png",
-    title: "SLEEVE STRIPED T-SHIRT",
-    rating: 4.5,
+    image: "/image1.png",
+    title: "T-SHIRT WITH TAPE DETAILS",
+    rating: 3,
     realPrice: "$160",
-    discountPrice: "$130",
-    discount: "-30%",
+    discountPrice: null,
+    discount: null,
+  },
+  {
+    image: "/image1.png",
+    title: "T-SHIRT WITH TAPE DETAILS",
+    rating: 3,
+    realPrice: "$160",
+    discountPrice: null,
+    discount: null,
   },
   {
     image: "/image4.png",
@@ -82,7 +85,22 @@ const topSellingsData = [
     discountPrice: "$130",
     discount: "-30%",
   },
-  // Add more data for other cards
+  {
+    image: "/image4.png",
+    title: "SLEEVE STRIPED T-SHIRT",
+    rating: 4.5,
+    realPrice: "$160",
+    discountPrice: "$130",
+    discount: "-30%",
+  },
+  {
+    image: "/image4.png",
+    title: "SLEEVE STRIPED T-SHIRT",
+    rating: 4.5,
+    realPrice: "$160",
+    discountPrice: "$130",
+    discount: "-30%",
+  },
 ];
 
 export default function Home() {

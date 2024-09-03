@@ -23,7 +23,7 @@ export default function Navbar() {
         <Link href="/" className="flex items-center space-x-3">
           <img src="/logomain.png" className="h-8" alt="SHOP.CO Logo" />
                   <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
-                      SHOP.CO
+                      SHOP.CO 
                   </span>
               </Link>
               
