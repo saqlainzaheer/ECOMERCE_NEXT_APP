@@ -58,6 +58,11 @@ export default function Navbar() {
             <li >
               <Link href="/products" className={`${linkClass('/products')}`}>
                 Products
+                
+              </Link>
+              <Link href="/products" className={`${linkClass('/products')}`}>
+                Products
+                
               </Link>
             </li>
           </ul>
