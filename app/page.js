@@ -24,15 +24,7 @@ const topSellingsData = [
  
  
  
-  
-  {
-    image: "/image1.png",
-    title: "T-SHIRT WITH TAPE DETAILS",
-    rating: 3,
-    realPrice: "$160",
-    discountPrice: null,
-    discount: null,
-  },
+
   {
     image: "/image4.png",
     title: "SLEEVE STRIPED T-SHIRT",
