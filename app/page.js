@@ -13,15 +13,6 @@ const topSellingsData = [
     discountPrice: null,
     discount: null,
   },
-  {
-    image: "/image1.png",
-    title: "T-SHIRT WITH TAPE DETAILS",
-    rating: 3,
-    realPrice: "$160",
-    discountPrice: null,
-    discount: null,
-  },
- 
  
  
 
