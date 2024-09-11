@@ -4,6 +4,8 @@ function page() {
     return (
         <div>
             <Link href={'/'} >sdfsdf</Link>
+            <Link href={'/'} >sdfsdf</Link>
+            <Link href={'/'} >sdfsdf</Link>
         </div>
     )
 }
