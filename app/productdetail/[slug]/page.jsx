@@ -6,6 +6,10 @@ function page() {
             <Link href={'/'} >sdfsdf</Link>
             <Link href={'/'} >sdfsdf</Link>
             <Link href={'/'} >sdfsdf</Link>
+            <Link href={'/'} >sdfsdf</Link>
+            <Link href={'/'} >sdfsdf</Link>
+            <Link href={'/'} >sdfsdf</Link>
+            <Link href={'/'} >sdfsdf</Link>
         </div>
     )
 }
